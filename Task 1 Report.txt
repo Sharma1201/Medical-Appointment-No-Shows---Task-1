@@ -1,0 +1,43 @@
+
+Task 1 Report – Data Cleaning & Preprocessing Project Overview
+
+Dataset: Medical Appointment No Shows (Kaggle),Contains patient info, appointments, and attendance
+
+Objective: Clean and preprocess the dataset for analysis
+
+Tools Used
+
+Python: Pandas, NumPy
+
+Data Cleaning Steps
+
+Loaded dataset into a DataFrame (df).
+
+2. Explored data: checked rows, columns, and datatypes.
+
+3. Checked for missing values → none found.
+
+4. Removing duplicate rows if any.
+
+5. Standardized categorical columns: Gender → F / M
+
+6. Neighbourhood → title case (e.g., Jardim da Penha)
+
+7. Converted date columns (ScheduledDay, AppointmentDay) to datetime format.
+
+8. Renamed columns for clarity and consistency.
+
+9. Fixed data types 
+
+10. Handled outliers in Age: removed negatives (-1) and unrealistic ages (115).
+
+11. Standardized Attended column (Yes/No).
+
+
+Final Dataset
+
+Cleaned, standardized, and ready for analysis
+
+No missing values, duplicates, or extreme outliers
+
+Text, categorical, numeric, and datetime columns are uniform and consistent
